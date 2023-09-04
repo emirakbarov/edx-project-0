@@ -27,11 +27,14 @@ li a:hover {
     text-decoration: underline;
 }
 #outerSearchDiv {
+}
+#searchBar {
     display: flex;
+    flex-direction: row;
     border: 1px solid #dfe1e5;
     box-shadow: none;
     border-radius: 24px;
-    margin: 0 auto;
+    margin: 0;
     width: 638px;
 }
 #searchBTN {
